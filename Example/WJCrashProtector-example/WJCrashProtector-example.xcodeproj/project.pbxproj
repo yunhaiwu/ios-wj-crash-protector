@@ -17,6 +17,17 @@
 		609A70482236216500D79622 /* NSTimer+TimerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 609A70422236216500D79622 /* NSTimer+TimerCrashProtector.m */; };
 		609A70492236216500D79622 /* NSObject+KVOCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 609A70432236216500D79622 /* NSObject+KVOCrashProtector.m */; };
 		609A704A2236216500D79622 /* NSObject+NotificationCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 609A70472236216500D79622 /* NSObject+NotificationCrashProtector.m */; };
+		609A704E2236373C00D79622 /* NSObject+SelectorCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 609A704D2236373C00D79622 /* NSObject+SelectorCrashProtector.m */; };
+		609A705122363A2900D79622 /* NSArray+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 609A705022363A2900D79622 /* NSArray+ContainerCrashProtector.m */; };
+		609A705422363A3F00D79622 /* NSMutableArray+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 609A705322363A3F00D79622 /* NSMutableArray+ContainerCrashProtector.m */; };
+		609A705722363A5100D79622 /* NSDictionary+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 609A705622363A5100D79622 /* NSDictionary+ContainerCrashProtector.m */; };
+		609A705A22363A5F00D79622 /* NSMutableDictionary+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 609A705922363A5F00D79622 /* NSMutableDictionary+ContainerCrashProtector.m */; };
+		609A705D22363A7500D79622 /* NSString+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 609A705C22363A7500D79622 /* NSString+ContainerCrashProtector.m */; };
+		609A706022363A8500D79622 /* NSAttributedString+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 609A705F22363A8500D79622 /* NSAttributedString+ContainerCrashProtector.m */; };
+		609A706322363A9800D79622 /* NSMutableString+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 609A706222363A9800D79622 /* NSMutableString+ContainerCrashProtector.m */; };
+		609A706622363AAA00D79622 /* NSMutableAttributedString+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 609A706522363AAA00D79622 /* NSMutableAttributedString+ContainerCrashProtector.m */; };
+		609A70692236493E00D79622 /* WJCrashProtectorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 609A70682236493E00D79622 /* WJCrashProtectorManager.m */; };
+		609A706E2236521B00D79622 /* NSCache+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 609A706D2236521B00D79622 /* NSCache+ContainerCrashProtector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +51,29 @@
 		609A70452236216500D79622 /* NSTimer+TimerCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+TimerCrashProtector.h"; sourceTree = "<group>"; };
 		609A70462236216500D79622 /* NSObject+KVOCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOCrashProtector.h"; sourceTree = "<group>"; };
 		609A70472236216500D79622 /* NSObject+NotificationCrashProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NotificationCrashProtector.m"; sourceTree = "<group>"; };
+		609A704C2236373C00D79622 /* NSObject+SelectorCrashProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SelectorCrashProtector.h"; sourceTree = "<group>"; };
+		609A704D2236373C00D79622 /* NSObject+SelectorCrashProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SelectorCrashProtector.m"; sourceTree = "<group>"; };
+		609A704F22363A2900D79622 /* NSArray+ContainerCrashProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		609A705022363A2900D79622 /* NSArray+ContainerCrashProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		609A705222363A3F00D79622 /* NSMutableArray+ContainerCrashProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		609A705322363A3F00D79622 /* NSMutableArray+ContainerCrashProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		609A705522363A5100D79622 /* NSDictionary+ContainerCrashProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		609A705622363A5100D79622 /* NSDictionary+ContainerCrashProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		609A705822363A5F00D79622 /* NSMutableDictionary+ContainerCrashProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		609A705922363A5F00D79622 /* NSMutableDictionary+ContainerCrashProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		609A705B22363A7500D79622 /* NSString+ContainerCrashProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		609A705C22363A7500D79622 /* NSString+ContainerCrashProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		609A705E22363A8500D79622 /* NSAttributedString+ContainerCrashProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		609A705F22363A8500D79622 /* NSAttributedString+ContainerCrashProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		609A706122363A9800D79622 /* NSMutableString+ContainerCrashProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		609A706222363A9800D79622 /* NSMutableString+ContainerCrashProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		609A706422363AAA00D79622 /* NSMutableAttributedString+ContainerCrashProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		609A706522363AAA00D79622 /* NSMutableAttributedString+ContainerCrashProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		609A70672236493E00D79622 /* WJCrashProtectorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCrashProtectorManager.h; sourceTree = "<group>"; };
+		609A70682236493E00D79622 /* WJCrashProtectorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCrashProtectorManager.m; sourceTree = "<group>"; };
+		609A706A2236497300D79622 /* WJCrashProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCrashProtector.h; sourceTree = "<group>"; };
+		609A706C2236521B00D79622 /* NSCache+ContainerCrashProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSCache+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		609A706D2236521B00D79622 /* NSCache+ContainerCrashProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSCache+ContainerCrashProtector.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +125,8 @@
 		609A703222360DB100D79622 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				609A706B22364C5300D79622 /* String */,
 				609A70412236215700D79622 /* TimerCrash */,
-				609A70402236214F00D79622 /* StringCrash */,
 				609A703F2236212E00D79622 /* NotificatioCrash */,
 				609A703E2236212500D79622 /* UIMainThreadCrash */,
 				609A703D2236211B00D79622 /* ContainerCrash */,
@@ -101,6 +135,9 @@
 				609A7039223620ED00D79622 /* WildPointerCrash */,
 				609A7035223620D000D79622 /* WJRuntimeUtils.h */,
 				609A7036223620D000D79622 /* WJRuntimeUtils.m */,
+				609A70672236493E00D79622 /* WJCrashProtectorManager.h */,
+				609A70682236493E00D79622 /* WJCrashProtectorManager.m */,
+				609A706A2236497300D79622 /* WJCrashProtector.h */,
 			);
 			name = Classes;
 			path = ../../Classes;
@@ -116,6 +153,8 @@
 		609A703B2236210900D79622 /* UnrecognizedSelectorCrash */ = {
 			isa = PBXGroup;
 			children = (
+				609A704C2236373C00D79622 /* NSObject+SelectorCrashProtector.h */,
+				609A704D2236373C00D79622 /* NSObject+SelectorCrashProtector.m */,
 			);
 			name = UnrecognizedSelectorCrash;
 			sourceTree = "<group>";
@@ -132,6 +171,16 @@
 		609A703D2236211B00D79622 /* ContainerCrash */ = {
 			isa = PBXGroup;
 			children = (
+				609A704F22363A2900D79622 /* NSArray+ContainerCrashProtector.h */,
+				609A705022363A2900D79622 /* NSArray+ContainerCrashProtector.m */,
+				609A705222363A3F00D79622 /* NSMutableArray+ContainerCrashProtector.h */,
+				609A705322363A3F00D79622 /* NSMutableArray+ContainerCrashProtector.m */,
+				609A705522363A5100D79622 /* NSDictionary+ContainerCrashProtector.h */,
+				609A705622363A5100D79622 /* NSDictionary+ContainerCrashProtector.m */,
+				609A705822363A5F00D79622 /* NSMutableDictionary+ContainerCrashProtector.h */,
+				609A705922363A5F00D79622 /* NSMutableDictionary+ContainerCrashProtector.m */,
+				609A706C2236521B00D79622 /* NSCache+ContainerCrashProtector.h */,
+				609A706D2236521B00D79622 /* NSCache+ContainerCrashProtector.m */,
 			);
 			name = ContainerCrash;
 			sourceTree = "<group>";
@@ -152,13 +201,6 @@
 			name = NotificatioCrash;
 			sourceTree = "<group>";
 		};
-		609A70402236214F00D79622 /* StringCrash */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = StringCrash;
-			sourceTree = "<group>";
-		};
 		609A70412236215700D79622 /* TimerCrash */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +208,21 @@
 				609A70422236216500D79622 /* NSTimer+TimerCrashProtector.m */,
 			);
 			name = TimerCrash;
+			sourceTree = "<group>";
+		};
+		609A706B22364C5300D79622 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				609A705B22363A7500D79622 /* NSString+ContainerCrashProtector.h */,
+				609A705C22363A7500D79622 /* NSString+ContainerCrashProtector.m */,
+				609A705E22363A8500D79622 /* NSAttributedString+ContainerCrashProtector.h */,
+				609A705F22363A8500D79622 /* NSAttributedString+ContainerCrashProtector.m */,
+				609A706122363A9800D79622 /* NSMutableString+ContainerCrashProtector.h */,
+				609A706222363A9800D79622 /* NSMutableString+ContainerCrashProtector.m */,
+				609A706422363AAA00D79622 /* NSMutableAttributedString+ContainerCrashProtector.h */,
+				609A706522363AAA00D79622 /* NSMutableAttributedString+ContainerCrashProtector.m */,
+			);
+			name = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,11 +296,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				609A702122360DA000D79622 /* ViewController.m in Sources */,
+				609A705122363A2900D79622 /* NSArray+ContainerCrashProtector.m in Sources */,
+				609A705422363A3F00D79622 /* NSMutableArray+ContainerCrashProtector.m in Sources */,
+				609A705D22363A7500D79622 /* NSString+ContainerCrashProtector.m in Sources */,
+				609A704E2236373C00D79622 /* NSObject+SelectorCrashProtector.m in Sources */,
 				609A70482236216500D79622 /* NSTimer+TimerCrashProtector.m in Sources */,
+				609A705722363A5100D79622 /* NSDictionary+ContainerCrashProtector.m in Sources */,
+				609A70692236493E00D79622 /* WJCrashProtectorManager.m in Sources */,
+				609A705A22363A5F00D79622 /* NSMutableDictionary+ContainerCrashProtector.m in Sources */,
+				609A706322363A9800D79622 /* NSMutableString+ContainerCrashProtector.m in Sources */,
+				609A706E2236521B00D79622 /* NSCache+ContainerCrashProtector.m in Sources */,
+				609A706622363AAA00D79622 /* NSMutableAttributedString+ContainerCrashProtector.m in Sources */,
 				609A704A2236216500D79622 /* NSObject+NotificationCrashProtector.m in Sources */,
 				609A7037223620D000D79622 /* WJRuntimeUtils.m in Sources */,
 				609A70492236216500D79622 /* NSObject+KVOCrashProtector.m in Sources */,
 				609A702C22360DA100D79622 /* main.m in Sources */,
+				609A706022363A8500D79622 /* NSAttributedString+ContainerCrashProtector.m in Sources */,
 				609A701E22360DA000D79622 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,16 +1,13 @@
-# iOS-WJCommon
+# iOS-WJCrashProtector
     
-    通用组价，几乎所有的QW组件都依赖此组件，Foundation UIKit 类别，和一些基础工具类库
+    app崩溃防护器
     
 ### CocoaPods 安装
 
     source：https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git
 
-    pod WJCommon
-    子包
-    pod WJCommon/Core
-    pod WJCommon/Utils
-    pod WJCommon/UI
+    pod WJCrashProtector
+
 
 ### 要求
 * ARC支持

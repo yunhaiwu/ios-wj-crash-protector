@@ -11,6 +11,6 @@
 
 @interface NSObject (NotificationCrashProtector)
 
-+(void)enableNotificationCrashProtector;
++(void)enabledNotificationCrashProtector;
 
 @end

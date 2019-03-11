@@ -11,6 +11,6 @@
 
 @interface NSTimer (TimerCrashProtector)
 
-+(void)enableTimerCrashProtector;
++(void)enabledTimerCrashProtector;
 
 @end

@@ -11,7 +11,7 @@
 
 @implementation NSObject (NotificationCrashProtector)
 
-+(void)enableNotificationCrashProtector {
++(void)enabledNotificationCrashProtector {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         [WJRuntimeUtils swizzleInstanceMethodWithClass:[NSObject class] orginalMethod:@selector(addObserver:selector:name:object:) replaceMethod:@selector(cp_addObserver:selector:name:object:)];
